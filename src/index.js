@@ -21,6 +21,9 @@ app.set('views', path.join(__dirname, '\\resources\\views'));
 app.get('/', (req, res) => {
   return res.render('home');
 })
+app.get('/search', (req, res) => {
+  return res.render('search');
+})
 
 // console.log(path.join(__dirname, '\\resources\\views')) Result: C:\Users\fritz\Documents\JSA_project\src\resources\views
 
